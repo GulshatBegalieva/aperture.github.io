@@ -26,8 +26,10 @@ button {
   display: -ms-flexbox;
   display: flex;
   width: calc(750px + (1300 - 750) * ((100vw - 785px) / (1440 - 785)));
-  padding-left: calc( 30px + (150 - 30) * ((100vw - 320px) / (1440 - 320)));
-  margin-bottom: calc( 10px + (20 - 10) * ((100vw - 320px) / (1440 - 320)));
+  padding-left: calc(
+ 30px + (150 - 30) * ((100vw - 320px) / (1440 - 320)));
+  margin-bottom: calc(
+ 10px + (20 - 10) * ((100vw - 320px) / (1440 - 320)));
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -43,7 +45,10 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: calc( 20px + 50 * ((100vw - 320px) / 1120));
+  margin-left: calc(
+ 20px +
+ 50 *
+ ((100vw - 320px) / 1120));
 }
 
 .header main nav ul {
@@ -54,7 +59,10 @@ button {
 
 .header main nav ul li {
   list-style: none;
-  margin-right: calc( 15px + 17 * ((100vw - 320px) / 1120));
+  margin-right: calc(
+ 15px +
+ 17 *
+ ((100vw - 320px) / 1120));
 }
 
 .header main nav ul li:last-child {
@@ -75,7 +83,6 @@ button {
 .header main nav .btn {
   margin-left: 31px;
   font-size: 16px;
-  /* @include adaptiv-value("width", 155, 130, 0); */
   width: 155px;
   line-height: 20px;
   letter-spacing: 0.4px;
@@ -84,8 +91,6 @@ button {
   border-radius: 14px;
   border: none;
   padding: 10px 20px 13px 20px;
-  /* @include adaptiv-value("padding-right", 20, 10, 0);
-				@include adaptiv-value("padding-left", 20, 10, 0); */
   cursor: pointer;
 }
 
@@ -166,23 +171,44 @@ button {
 }
 
 .swiper {
-  width: calc( 300px + 868 * ((100vw - 320px) / 1120));
+  width: calc(
+ 300px +
+ 868 *
+ ((100vw - 320px) / 1120));
 }
 
 .swiper-wrapper {
-  width: calc( 300px + 868 * ((100vw - 320px) / 1120));
+  width: calc(
+ 300px +
+ 868 *
+ ((100vw - 320px) / 1120));
 }
 
 .images {
-  padding-top: calc( 30px + 90 * ((100vw - 320px) / 1120));
-  padding-left: calc( 10px + 126 * ((100vw - 320px) / 1120));
-  padding-right: calc( 10px + 126 * ((100vw - 320px) / 1120));
-  padding-bottom: calc( 20px + 80 * ((100vw - 320px) / 1120));
+  padding-top: calc(
+ 30px +
+ 90 *
+ ((100vw - 320px) / 1120));
+  padding-left: calc(
+ 10px +
+ 126 *
+ ((100vw - 320px) / 1120));
+  padding-right: calc(
+ 10px +
+ 126 *
+ ((100vw - 320px) / 1120));
+  padding-bottom: calc(
+ 20px +
+ 80 *
+ ((100vw - 320px) / 1120));
   background: #000000;
 }
 
 .images .text {
-  margin-bottom: calc( 15px + 27 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 15px +
+ 27 *
+ ((100vw - 320px) / 1120));
 }
 
 .images .text p {
@@ -196,16 +222,28 @@ button {
   font-size: 40px;
   line-height: 42px;
   color: #ffffff;
-  margin-bottom: calc( 7px + 8 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 7px +
+ 8 *
+ ((100vw - 320px) / 1120));
 }
 
 .images .content {
-  width: calc( 300px + 868 * ((100vw - 320px) / 1120));
+  width: calc(
+ 300px +
+ 868 *
+ ((100vw - 320px) / 1120));
 }
 
 .images .content .item {
-  width: calc( 300px + 276 * ((100vw - 320px) / 1120));
-  height: calc( 500px + 100 * ((100vw - 320px) / 1120));
+  width: calc(
+ 300px +
+ 276 *
+ ((100vw - 320px) / 1120));
+  height: calc(
+ 500px +
+ 100 *
+ ((100vw - 320px) / 1120));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,7 +262,10 @@ button {
   font-size: 14px;
   line-height: 20px;
   color: #c0c0c0;
-  width: calc( 220px + 281 * ((100vw - 320px) / 1120));
+  width: calc(
+ 220px +
+ 281 *
+ ((100vw - 320px) / 1120));
 }
 
 .images .content .item .top {
@@ -285,7 +326,10 @@ button {
 .mountain,
 .tree,
 .mountain2 {
-  height: calc( 550px + 50 * ((100vw - 320px) / 1120));
+  height: calc(
+ 550px +
+ 50 *
+ ((100vw - 320px) / 1120));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,14 +343,20 @@ button {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  padding-bottom: calc( 20px + 20 * ((100vw - 320px) / 1120));
+  padding-bottom: calc(
+ 20px +
+ 20 *
+ ((100vw - 320px) / 1120));
 }
 
 .mountain .text,
 .tree .text,
 .mountain2 .text {
   width: 298px;
-  margin-right: calc( 20px + 42 * ((100vw - 320px) / 1120));
+  margin-right: calc(
+ 20px +
+ 42 *
+ ((100vw - 320px) / 1120));
 }
 
 .mountain .text p,
@@ -334,8 +384,14 @@ button {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin-top: calc( 20px + 183 * ((100vw - 320px) / 1120));
-  margin-right: calc( 20px + 20 * ((100vw - 320px) / 1120));
+  margin-top: calc(
+ 20px +
+ 183 *
+ ((100vw - 320px) / 1120));
+  margin-right: calc(
+ 20px +
+ 20 *
+ ((100vw - 320px) / 1120));
 }
 
 .mountain .icons .item,
@@ -385,14 +441,26 @@ button {
 
 .tools .left,
 .tools .right {
-  width: calc( 320px + 400 * ((100vw - 320px) / 1120));
+  width: calc(
+ 320px +
+ 400 *
+ ((100vw - 320px) / 1120));
 }
 
 .tools .left {
   background: #000000;
-  padding-left: calc( 20px + 67 * ((100vw - 320px) / 1120));
-  padding-right: calc( 10px + 10 * ((100vw - 320px) / 1120));
-  height: calc( 450px + 90 * ((100vw - 320px) / 1120));
+  padding-left: calc(
+ 20px +
+ 67 *
+ ((100vw - 320px) / 1120));
+  padding-right: calc(
+ 10px +
+ 10 *
+ ((100vw - 320px) / 1120));
+  height: calc(
+ 450px +
+ 90 *
+ ((100vw - 320px) / 1120));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -468,7 +536,10 @@ button {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: calc( 450px + 90 * ((100vw - 320px) / 1120));
+  height: calc(
+ 450px +
+ 90 *
+ ((100vw - 320px) / 1120));
 }
 
 .tools .right .icons {
@@ -478,8 +549,14 @@ button {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin-bottom: calc( 20px + 20 * ((100vw - 320px) / 1120));
-  margin-right: calc( 20px + 20 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 20px +
+ 20 *
+ ((100vw - 320px) / 1120));
+  margin-right: calc(
+ 20px +
+ 20 *
+ ((100vw - 320px) / 1120));
 }
 
 .tools .right .icons .item {
@@ -505,12 +582,21 @@ button {
 
 .clients {
   background: #000000;
-  padding-top: calc( 25px + 95 * ((100vw - 320px) / 1120));
-  padding-bottom: calc( 20px + 80 * ((100vw - 320px) / 1120));
+  padding-top: calc(
+ 25px +
+ 95 *
+ ((100vw - 320px) / 1120));
+  padding-bottom: calc(
+ 20px +
+ 80 *
+ ((100vw - 320px) / 1120));
 }
 
 .clients .content {
-  width: calc( 300px + 868 * ((100vw - 320px) / 1120));
+  width: calc(
+ 300px +
+ 868 *
+ ((100vw - 320px) / 1120));
   margin: 0 auto;
 }
 
@@ -522,7 +608,10 @@ button {
   font-size: 40px;
   line-height: 42px;
   color: #ffffff;
-  margin-bottom: calc( 8px + 7 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 8px +
+ 7 *
+ ((100vw - 320px) / 1120));
 }
 
 .clients .content .text p {
@@ -538,14 +627,26 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: calc( 15px + 65 * ((100vw - 320px) / 1120));
-  gap: calc( 15px + 94 * ((100vw - 320px) / 1120));
+  margin-top: calc(
+ 15px +
+ 65 *
+ ((100vw - 320px) / 1120));
+  gap: calc(
+ 15px +
+ 94 *
+ ((100vw - 320px) / 1120));
 }
 
 .support {
-  height: calc( 350px + 64 * ((100vw - 320px) / 1120));
+  height: calc(
+ 350px +
+ 64 *
+ ((100vw - 320px) / 1120));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -568,7 +669,10 @@ button {
   font-size: 40px;
   line-height: 42px;
   color: #ffffff;
-  margin-bottom: calc( 8px + 7 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 8px +
+ 7 *
+ ((100vw - 320px) / 1120));
 }
 
 .support .content p {
@@ -607,7 +711,10 @@ button {
 }
 
 footer {
-  height: calc( 630px + 22 * ((100vw - 320px) / 1120));
+  height: calc(
+ 630px +
+ 22 *
+ ((100vw - 320px) / 1120));
   background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -621,7 +728,10 @@ footer {
 }
 
 footer .content {
-  width: calc( 300px + 868 * ((100vw - 320px) / 1120));
+  width: calc(
+ 300px +
+ 868 *
+ ((100vw - 320px) / 1120));
   padding: 0 10px;
 }
 
@@ -639,15 +749,24 @@ footer .content .bottom {
 }
 
 footer .content .top .one {
-  width: calc( 300px + 140 * ((100vw - 320px) / 1120));
-  margin-bottom: calc( 15px + 5 * ((100vw - 320px) / 1120));
+  width: calc(
+ 300px +
+ 140 *
+ ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 15px +
+ 5 *
+ ((100vw - 320px) / 1120));
 }
 
 footer .content .top .one p {
   font-size: 13px;
   line-height: 20px;
   color: #c0c0c0;
-  margin-top: calc( 10px + 10 * ((100vw - 320px) / 1120));
+  margin-top: calc(
+ 10px +
+ 10 *
+ ((100vw - 320px) / 1120));
 }
 
 footer .content .top .link {
@@ -659,7 +778,7 @@ footer .content .top .link {
           justify-content: space-between;
 }
 
-footer .content .top .link .top {
+footer .content .top .link p.top {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 2px;
@@ -668,27 +787,45 @@ footer .content .top .link .top {
   margin-bottom: 10px;
 }
 
-footer .content .top .link p {
+footer .content .top .link a {
+  display: block;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
-footer .content .top .link p:last-child {
+footer .content .top .link a:last-child {
   margin-bottom: 0;
 }
 
+footer .content .top .link a:hover {
+  text-decoration: underline;
+}
+
 footer .content .top .two {
-  margin-right: calc( 20px + 35 * ((100vw - 320px) / 1120));
+  margin-right: calc(
+ 20px +
+ 35 *
+ ((100vw - 320px) / 1120));
 }
 
 footer .content .center {
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
-  margin-top: calc( 20px + 16 * ((100vw - 320px) / 1120));
-  padding-top: calc( 20px + 16 * ((100vw - 320px) / 1120));
-  padding-bottom: calc( 20px + 16 * ((100vw - 320px) / 1120));
+  margin-top: calc(
+ 20px +
+ 16 *
+ ((100vw - 320px) / 1120));
+  padding-top: calc(
+ 20px +
+ 16 *
+ ((100vw - 320px) / 1120));
+  padding-bottom: calc(
+ 20px +
+ 16 *
+ ((100vw - 320px) / 1120));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -698,7 +835,10 @@ footer .content .center {
 }
 
 footer .content .center .text {
-  margin-bottom: calc( 15px + 5 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 15px +
+ 5 *
+ ((100vw - 320px) / 1120));
 }
 
 footer .content .center .top {
@@ -707,7 +847,10 @@ footer .content .center .top {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: calc( 10px + 10 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 10px +
+ 10 *
+ ((100vw - 320px) / 1120));
 }
 
 footer .content .center p {
@@ -723,14 +866,20 @@ footer .content .center .forms {
 footer .content .center .forms input {
   border: none;
   background: #f9fafb;
-  width: calc( 280px + 178 * ((100vw - 320px) / 1120));
+  width: calc(
+ 280px +
+ 178 *
+ ((100vw - 320px) / 1120));
   height: 52px;
   border-radius: 12px;
   padding: 10px 76px 10px 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  padding-right: calc( 65px + 11 * ((100vw - 320px) / 1120));
+  padding-right: calc(
+ 65px +
+ 11 *
+ ((100vw - 320px) / 1120));
 }
 
 footer .content .center .forms .black {
@@ -738,27 +887,39 @@ footer .content .center .forms .black {
   top: 11px;
   right: 5px;
   background: #000000;
-  width: calc( 50px + 13 * ((100vw - 320px) / 1120));
+  width: calc(
+ 50px +
+ 13 *
+ ((100vw - 320px) / 1120));
   height: 30px;
   border-radius: 11px;
 }
 
 footer .content .bottom {
-  margin-top: calc( 20px + 36 * ((100vw - 320px) / 1120));
+  margin-top: calc(
+ 20px +
+ 36 *
+ ((100vw - 320px) / 1120));
 }
 
 footer .content .bottom p {
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: calc( 15px + 5 * ((100vw - 320px) / 1120));
+  margin-bottom: calc(
+ 15px +
+ 5 *
+ ((100vw - 320px) / 1120));
   color: #c0c0c0;
 }
 
-footer .content .bottom .social img {
-  margin-right: calc( 15px + 5 * ((100vw - 320px) / 1120));
+footer .content .bottom .social a {
+  margin-right: calc(
+ 15px +
+ 5 *
+ ((100vw - 320px) / 1120));
 }
 
-footer .content .bottom .social img:last-child {
+footer .content .bottom .social a:last-child {
   margin-right: 0;
 }
 
@@ -781,18 +942,37 @@ footer .content .bottom .social img:last-child {
 @media screen and (max-width: 945px) {
   .header main {
     width: 100%;
-    padding-left: calc( 30px + (100 - 30) * ((100vw - 785px) / (1440 - 785)));
+    padding-left: calc(
+ 30px + (100 - 30) * ((100vw - 785px) / (1440 - 785)));
   }
   .header main nav {
     width: 100%;
-    margin-left: calc( 20px + 50 * ((100vw - 320px) / 1120));
+    margin-left: calc(
+ 20px +
+ 50 *
+ ((100vw - 320px) / 1120));
   }
   .header main nav .btn {
-    width: calc( 130px + 25 * ((100vw - 320px) / 1120));
-    padding-right: calc( 10px + 5 * ((100vw - 320px) / 1120));
-    padding-left: calc( 10px + 5 * ((100vw - 320px) / 1120));
-    padding-top: calc( 8px + 2 * ((100vw - 320px) / 1120));
-    padding-bottom: calc( 8px + 4 * ((100vw - 320px) / 1120));
+    width: calc(
+ 130px +
+ 25 *
+ ((100vw - 320px) / 1120));
+    padding-right: calc(
+ 10px +
+ 5 *
+ ((100vw - 320px) / 1120));
+    padding-left: calc(
+ 10px +
+ 5 *
+ ((100vw - 320px) / 1120));
+    padding-top: calc(
+ 8px +
+ 2 *
+ ((100vw - 320px) / 1120));
+    padding-bottom: calc(
+ 8px +
+ 4 *
+ ((100vw - 320px) / 1120));
   }
 }
 
@@ -817,14 +997,12 @@ footer .content .bottom .social img:last-child {
     background: #333333;
     z-index: 1000;
     width: 280px;
-    height: 350px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 0;
   }
   .header main nav ul {
     display: -webkit-box;
@@ -834,13 +1012,15 @@ footer .content .bottom .social img:last-child {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    margin: 10px 0 0 20px;
+    margin-top: 110px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .header main nav ul li {
-    margin-bottom: 13px;
-  }
-  .header main nav ul li:last-child {
-    margin-bottom: 0;
+    width: 100%;
+    margin-bottom: 28px;
+    margin-right: 0;
   }
   .header main nav ul li a {
     font-size: 18px;
@@ -849,7 +1029,7 @@ footer .content .bottom .social img:last-child {
     display: block;
     position: absolute;
     top: 30px;
-    left: 30px;
+    right: 30px;
   }
   .header main nav.active {
     right: 0;
@@ -887,7 +1067,10 @@ footer .content .bottom .social img:last-child {
             align-items: center;
   }
   .support .content .top {
-    font-size: calc( 34px + 4 * ((100vw - 320px) / 1120));
+    font-size: calc(
+ 34px +
+ 4 *
+ ((100vw - 320px) / 1120));
   }
 }
 
